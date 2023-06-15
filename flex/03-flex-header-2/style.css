@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 8px
 }
 
 .profile-image {
@@ -23,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  display: flex;
 }
 
 .logo {
@@ -39,6 +41,7 @@ button {
   color: white;
   padding: 8px 24px;
   display: flex;
+  margin: 0 15px;
 }
 
 a {
@@ -57,9 +60,6 @@ ul {
   flex-direction: row;
   gap: 15px;
  align-items: flex-start;
-}
-.notification{
-  display: flex;
-  flex-direction: row;
- align-items: flex-end;
+ flex-wrap: nowrap;
+ flex: 3;
 }
