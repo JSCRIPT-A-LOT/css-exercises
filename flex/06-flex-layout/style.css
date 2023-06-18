@@ -40,6 +40,7 @@ input {
 }
 .header a {
   text-decoration: none;
+  color: rgb(41, 41, 41);
 }
 .content {
   display: flex;
@@ -47,9 +48,13 @@ input {
   justify-content: center;
   align-items: center;
   padding: 100px;
+  gap: 10px;
+
 }
 .footer a {
   text-decoration: none;
+color: rgb(41, 41, 41);
+  
 }
 .footer ul {
   display: flex;
@@ -62,4 +67,11 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
+  background-color: #eeeeee;
+  align-items: flex-end;
+}
+.all-content {
+  display: flex;
+  flex-direction: column;
 }
