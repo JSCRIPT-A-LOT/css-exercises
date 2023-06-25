@@ -37,6 +37,25 @@ img {
 }
 
 
+.All {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 52px;
+  flex: 0 0 200px;
+  flex-wrap: nowrap;
+
+}
+
+.plants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
